@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1.head {
+    text-align: center;
+    font-size: 44px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+    color: white;
+}
+p.foot {
+    text-align: center;
+    font-size: 18px;
+    padding: 38px;
+    color: white;
+}
+#head {
+    height: 200px;
+    background-color: rosybrown;
+    margin-bottom: 30px;
+}
+#foot {
+    background-color: lightseagreen;
+    height: 100px;
+    margin-top: 30px;
+}
