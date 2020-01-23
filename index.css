@@ -8,12 +8,6 @@ a, :active, :visited, :link {
 .clear {
     clear: both;
 }
-.head img {
-    display: block;
-    width: 150px;
-    margin: 0 auto;
-    padding: 25px 0;
-}
 #konten {
     width: 900px;
     margin: auto;
