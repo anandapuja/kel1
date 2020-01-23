@@ -1,0 +1,160 @@
+body{background-color: #F6E1E1;}
+
+h2{
+    font-size: 32px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom:50   px;
+
+
+}
+
+section {margin-left: 20px;
+    margin-right: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color:cornsilk;
+border: 8px whitesmoke solid;
+display:flex;
+
+}
+
+
+.s1{flex: 2;
+    border-right: 2px black solid;
+}
+.s2{flex:1;
+    background-color: seashell;
+}
+
+.info{border:1px border solid;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#name{
+flex=1;
+padding:10px;
+font-size: 16px;
+}
+
+#addie{
+flex=1;
+padding:10px;
+font-size: 16px;
+}
+
+#zip{
+flex=1;
+padding:10px;
+font-size: 16px;
+}
+
+#phone{
+flex=1;
+padding:10px;
+font-size: 16px;
+
+}
+
+.kirim{ margin-left: 52px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+.bayar{ margin-left: 52px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#pembayaran{font-size: 18px;
+margin-top: 10px;}
+#pengiriman{font-size: 18px;
+margin-top: 10px;}
+
+
+
+
+
+
+
+
+
+
+#check{
+    font-size: 20px;
+    width: 200px;
+    margin: 20px;
+    height: 50px;
+    flex:1;
+
+}
+
+#back{
+    font-size: 20px;
+    width: 200px;
+    margin: 20px;
+    height: 50px;
+    flex:1;
+}
+
+
+.button{
+    display:flex;
+    justify-content: center;
+    margin-top: 190px;
+
+
+}
+
+
+#p1{font-weight: 1000;
+    font-size: 24px;
+    color: brown;
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+
+#p2{margin-top: 25px;
+    font-size: 18px;
+}
+
+#p3{margin-top: 100px;
+    font-size: 18px;
+}
+
+#p4{margin-top: 25px;
+    font-size: 18px;
+   
+}
+
+#p5{margin-top: 100px;
+    font-size: 18px;
+    
+}
+
+
+.par{
+    display:flex;
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top: 100px;
+
+    
+
+
+}
+
+.par1{flex:1;}
+.par2{flex:1; 
+    text-align: right;
+}
