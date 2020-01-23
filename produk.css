@@ -18,28 +18,47 @@ a, :active, :visited, :link {
     width: 900px;
     margin: auto;
 }
-.box-30 {
-    float: left;
-    margin-bottom: 30px;
+
+.box-item{
+    width:50%;
+    height:300px;
+    float:left;
+    background-color:white;
+    overflow: auto;
 }
-.box-30 img {
-    width: 300px;
-    padding: 10px;
-    border-radius: 30px;
+.box-item-list{
+    width:100%;
 }
-.box-30 img:hover {
-    opacity: 0.5;
-    bottom: 10px;
-    position: relative;
-    transition: 0.5s;
+.box-item-list .td{
+    width:40%;
 }
-.box-30 h3, p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px 0 0 10px;
-    text-align: center;
-    margin: 5px 0;
+.box-item h3{
+    margin-top:0;
+    padding:20px;
+    border-bottom: 1px solid white;
 }
-.box-30 h3:hover {
-    color: teal;
-    transition: 0.5s;
+.box-item img{
+    width:100%;
+}
+.box-total{
+    width:40%;
+    margin-left:50%;
+    background-color:white;
+}
+.box-total h3{
+    margin-top:0;
+    padding:20px;
+    border-bottom: 1px solid white;
+    color: black;
+}
+.button-custom{
+    padding: 15px 32px;
+    margin: 4px 2px;
+    margin-left:35%;
+  }
+.list{
+    width:60%;
+    margin:auto;
+    height:100%;
+    padding-bottom:50px;
 }
